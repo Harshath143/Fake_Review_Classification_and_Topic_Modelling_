@@ -230,7 +230,7 @@ To classify a review as fake or real, send the following POST request to `http:/
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-## Doubt Clarification
+## Resources for Doubt Clarification
 
 - **Docker** - https://docker-curriculum.com/
 
