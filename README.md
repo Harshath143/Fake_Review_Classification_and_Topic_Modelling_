@@ -13,14 +13,39 @@ This project focuses on building machine learning and deep learning models to cl
 
 ---
 
+# Fake Review Classification and Topic Modeling
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
 
-- **Python 3.7+**
-- **Docker** (for containerizing the app)
-- **Postman** (for testing the API endpoint)
-- **Git** (for version control)
+### 1. Python 3.7+
+   - Python is required to run the application. Make sure you have Python 3.7 or above installed. You can download Python from [here](https://www.python.org/downloads/).
+   - ![Python](https://upload.wikimedia.org/wikipedia/commons/6/66/Python_3.x_logo_2020.svg)
+
+### 2. Docker (for containerizing the app)
+   - Docker helps in creating a containerized environment for the app, ensuring consistency across different systems. Install Docker from [here](https://www.docker.com/products/docker-desktop).
+   - ![Docker](https://upload.wikimedia.org/wikipedia/commons/7/79/Docker_logo.png)
+
+### 3. Postman (for testing the API endpoint)
+   - Postman is a tool for testing APIs, which is essential for testing the FastAPI endpoints. You can download it from [here](https://www.postman.com/downloads/).
+   - ![Postman](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Postman_Logo_2020.svg/1200px-Postman_Logo_2020.svg.png)
+
+### 4. Git (for version control)
+   - Git is required for version control. Install it from [here](https://git-scm.com/downloads).
+   - ![Git](https://upload.wikimedia.org/wikipedia/commons/a/a7/Git-Logo.svg)
+
+## Overview
+
+This project uses machine learning (ML), deep learning (DL), and transformers (BERT) to classify fake reviews and perform topic modeling. It can be deployed via FastAPI and containerized using Docker.
+
+## Features
+
+- Fake review classification using ML models like Multinomial Naive Bayes, Random Forest, Decision Tree, KNN, and Logistic Regression.
+- Deep learning models such as RNN, LSTM, and BiLSTM for review classification.
+- Transformer-based BERT model for text classification.
+- API deployment using FastAPI and Docker for ease of use.
+
 
 ### Required Libraries
 
