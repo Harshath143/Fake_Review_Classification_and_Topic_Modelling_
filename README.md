@@ -71,6 +71,21 @@ pip install -r requirements.txt
 ```
 
 ---
+## Text Preprocessing
+
+Before feeding the review text into the models, the following preprocessing steps were applied to ensure the text is clean and standardized for classification:
+
+**Lowercasing**: All text is converted to lowercase to ensure consistency in text representation.
+
+**Removing Special Characters**: Non-alphanumeric characters (like punctuation, special symbols, etc.) are removed from the text to focus on meaningful words.
+
+**Removing Stop Words**: Common stop words (e.g., "the", "and", "is") are removed using the NLTK library to improve model performance by focusing on important words.
+
+**Tokenization**: The text is split into individual tokens (words) using the BERT Tokenizer. This converts the text into a format suitable for BERT's input.
+
+**Padding and Truncation**: The tokenized sequences are padded to a fixed length of 128 tokens and truncated if they exceed this length. This ensures that all inputs have the same shape for the BERT model.
+
+---
 
 ## Running the FastAPI App Locally
 
