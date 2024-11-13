@@ -46,7 +46,7 @@ These dependencies are required to run the app, the BERT model, and perform topi
 Start by cloning the repository:
 
 ```bash
-git clone https://github.com/your-repo-url.git
+git clone https://github.com/Harshath143/Fake_Review_Classification_and_Topic_Modelling_.git
 cd your-repo-directory
 ```
 
@@ -77,12 +77,12 @@ pip install -r requirements.txt
    uvicorn app:app --reload
    ```
 
-   This will run the FastAPI app locally at `http://127.0.0.1:8000`.
+   This will run the FastAPI app locally at `http://127.10.1.1:8000`.
 
 2. **API Documentation**: FastAPI automatically generates an interactive API documentation. You can access it by visiting:
 
    ```
-   http://127.0.0.1:8000/docs
+   http://127.10.1.1:8000/docs
    ```
 
 3. **Testing the API with Postman**:
@@ -125,7 +125,7 @@ pip install -r requirements.txt
 3. **Use Docker Compose** (Optional): For easier multi-container management, you can use Docker Compose. Here's a sample `docker-compose.yml`:
 
    ```yaml
-   version: '3.8'
+   version: '3.11'
 
    services:
      app:
