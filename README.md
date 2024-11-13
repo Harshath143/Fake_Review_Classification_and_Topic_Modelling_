@@ -232,8 +232,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 # Doubt Clarification
 
-**Docker** - https://docker-curriculum.com/
-**FastAPI** - https://dev.to/devasservice/fastapi-best-practices-a-condensed-guide-with-examples-3pa5
-**Transformers** - https://www.datacamp.com/tutorial/how-transformers-work
-**HuggingFace** - https://huggingface.co/models
+-**Docker** - https://docker-curriculum.com/
+-**FastAPI** - https://dev.to/devasservice/fastapi-best-practices-a-condensed-guide-with-examples-3pa5
+-**Transformers** - https://www.datacamp.com/tutorial/how-transformers-work
+-**HuggingFace** - https://huggingface.co/models
 
